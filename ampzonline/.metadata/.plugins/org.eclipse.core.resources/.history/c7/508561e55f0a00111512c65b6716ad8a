@@ -1,0 +1,52 @@
+<?php echo $this->doctype() ?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>SFS: AMPZ- Antz Mapping Project</title>
+  <?php echo $this->headLink()->appendStylesheet('/css/global.css') ?>
+  
+  <style>
+    * {
+    margin: 0;
+    }
+    html, body {
+    height: 100%;
+    }
+    .wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -3em;
+    }
+    .footer, .push {
+    height: 3em;
+    margin-left: auto;
+    margin-right: auto
+    }
+
+</style>
+</head>
+<body>
+<div class="wrapper">
+<div class="header" style="background-color: #EEEEEE; height: 30px; width:98%; border: 2px solid #444444; ">
+    <div id="header-logo" style="float: left">
+        <b>Ampz: Antz Mapping Project</b>
+    </div>
+    <div id="header-navigation" style="float: right">
+        <a href="<?php echo $this->url(
+            array('controller'=>'index'),
+            'default',
+            true) ?>">Ampz Home</a>
+    </div>
+</div>
+
+<?php echo $this->layout()->content ?>
+<div class="push"></div>
+</div>
+<div class="footer">
+	<p>Copyright (c) 2011 SorGar <br /><img src="http://framework.zend.com/images/PoweredBy_ZF_4LightBG.png" />
+        
+</div>
+
+</body>
+</html>

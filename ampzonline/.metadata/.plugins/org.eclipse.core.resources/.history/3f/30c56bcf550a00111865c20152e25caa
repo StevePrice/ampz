@@ -1,0 +1,27 @@
+<style>
+    * {
+    margin: 0;
+    }
+    html, body {
+    height: 100%;
+    }
+    .wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -4em;
+    }
+    .footer, .push {
+    height: 4em;
+    }
+
+</style>
+<div class="wrapper">
+	
+    <h1>Welcome to the <span id="zf-name">Antz Mapping Project!</span></h1>
+
+    <h3>To get started please click...</h3>
+	</div>
+	
+    
+ 

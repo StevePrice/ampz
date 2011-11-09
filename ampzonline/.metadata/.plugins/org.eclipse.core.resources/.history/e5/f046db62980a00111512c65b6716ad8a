@@ -1,0 +1,66 @@
+<?php echo $this->doctype() ?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>AMPZ- Antz Mapping Project</title>
+  <?php echo $this->headLink()->appendStylesheet('/css/global.css') ?>
+  
+  <style>
+    * {
+    margin: 1px;
+    }
+    html, body {
+    height: 100%;
+    }
+    .wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    width:100%;
+    margin: 1px auto -4em;
+    }
+    .footer, .push {
+    height: 4em;
+    margin-left: auto;
+    margin-right: auto
+    }
+    .header {
+    background-color: #EEEEEE; 
+    height: 30px; 
+    width:100%; 
+    border: 1px solid #44e4e4; 
+    margin-left: auto;
+    margin-right: auto	
+	}
+}
+
+</style>
+</head>
+<body>
+<div class="wrapper">
+<div class="header" style="">
+	
+	
+    <div id="header-logo" style="float: left; margin: 1px;">
+        <b>Ampz: Antz Mapping Project</b>
+    </div>
+    <div id="header-navigation" style="float: right; margin: 1px;">
+        <a href="<?php echo $this->url(
+            array('controller'=>'index'),
+            'default',
+            true) ?>">Amp Home</a> 
+    </div>
+</div>
+<img src= <? echo $this->baseUrl('images/ampzheader.png')?>  >
+<p></p>
+<?php echo $this->layout()->content ?>
+<div class="push"></div>
+</div>
+<div class="footer">
+	<center><p>Copyright (c) 2011 SorGar <br /><img src="http://framework.zend.com/images/PoweredBy_ZF_4LightBG.png" />
+	</p>
+    </center>    
+</div>
+
+</body>
+</html>

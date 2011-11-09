@@ -1,0 +1,6 @@
+INDEX VERSION 1.122+C:\Code_hause\ampz\ampzonline\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+592805023.index
+1610685391.index
+3559822321.index
+1152437820.index
+510084274.index

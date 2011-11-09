@@ -1,0 +1,48 @@
+<style>
+* { margin:0; padding:0; } 
+
+html, body, #wrap { height: 100%; }
+
+body > #wrap {height: auto; min-height: 100%;}
+
+#main { padding-bottom: 150px; 
+		background-image: url(http://framework.zend.com/images/bkg_header.jpg);}  /* must be same height as the footer */
+
+#footer {
+        position: relative;
+        margin-top: -150px; /* negative value of footer height */
+        height: 150px;
+        background-image: url(http://framework.zend.com/images/bkg_body-bottom.gif);
+		clear:both;} 
+
+/* CLEAR FIX*/
+.clearfix:after {content: ".";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */     
+
+
+</style>
+<div class="wrap">
+	<div id="main" class="clearfix">
+    <h1>Welcome to the <span id="zf-name">Antz Mapping Project!</span></h1>
+
+    <h3>To get started please click...</h3>
+	</div>
+
+    <div id="footer" >
+        <p><img src="http://framework.zend.com/images/PoweredBy_ZF_4LightBG.png" /></p>
+        <p>
+            Helpful Links: <br />
+            <a href="http://framework.zend.com/">Zend Framework Website</a> |
+            <a href="http://framework.zend.com/manual/en/">Zend Framework Manual</a>
+             <p>Copyright (c) 2011</p>
+        </p>
+    </div>
+ 

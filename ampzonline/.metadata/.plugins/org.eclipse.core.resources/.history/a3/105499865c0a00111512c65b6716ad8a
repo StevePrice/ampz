@@ -1,0 +1,54 @@
+<?php echo $this->doctype() ?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>SFS: AMPZ- Antz Mapping Project</title>
+  <?php echo $this->headLink()->appendStylesheet('/css/global.css') ?>
+  
+  <style>
+    * {
+    margin: 0;
+    }
+    html, body {
+    height: 100%;
+    }
+    .wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -4em;
+    }
+    .footer, .push {
+    height: 4em;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="header" style="background-color: #EEEEEE; height: 30px; width:100%; border: 2px solid #444444; ">
+    <div id="header-logo" style="float: left">
+        <b>Ampz: Antz Mapping Project</b>
+    </div>
+    <div id="header-navigation" style="float: right">
+        <a href="<?php echo $this->url(
+            array('controller'=>'index'),
+            'default',
+            true) ?>">Ampz Home</a>
+    </div>
+</div>
+
+<?php echo $this->layout()->content ?>
+<div class="push" >
+	<p>Copyright (c) 2011 SorGar <img src="http://framework.zend.com/images/PoweredBy_ZF_4LightBG.png" />
+        <p>
+            Helpful Links: <br />
+            <a href="http://framework.zend.com/">Zend Framework Website</a> |
+            <a href="http://framework.zend.com/manual/en/">Zend Framework Manual</a>
+            
+        </p>
+    </p>
+</div>
+
+</body>
+</html>

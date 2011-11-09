@@ -1,0 +1,17 @@
+
+<div class="wrapper">
+	
+    <h1>Welcome to the <span id="zf-name">Antz Mapping Project!</span></h1>
+
+    <h3>Introduction</h3>
+    This web application facilitates the mapping of user data into the antz CA csv file format.<p>
+    The process is as follows:
+    <ol>
+    	<li>Upload your file to AMPz</li>
+    	<li>Answer a few questions about your data</li>
+    	<li>Download your data in the antz CA csv file format.
+    </ol>
+	</div>
+	
+    
+ 
